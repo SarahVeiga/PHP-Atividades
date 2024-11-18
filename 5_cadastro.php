@@ -28,7 +28,7 @@
         //Adiciona dados ao final do arquivo
         $arquivo = fopen('usuarios.txt', 'a');
 
-        $linha = $nome . ';' . $senha . '\n';
+        $linha = $nome . ';' . $senha . "\n";
 
         //escreve no arquivo
         fwrite($arquivo,$linha);
